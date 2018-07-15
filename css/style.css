@@ -773,6 +773,10 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
+  .header__vl {
+    width: .3rem;
+    height: 60px;
+    border: solid 1px #fff; }
 
 .navigation__checkbox {
   display: none; }
