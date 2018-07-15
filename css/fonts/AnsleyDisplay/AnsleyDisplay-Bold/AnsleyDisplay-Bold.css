@@ -1,0 +1,12 @@
+/* Webfont: AnsleyDisplay-Bold */@font-face {
+    font-family: 'AnsleyDisplay-Bold';
+    src: url('AnsleyDisplay-Bold.eot'); /* IE9 Compat Modes */
+    src: url('AnsleyDisplay-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('AnsleyDisplay-Bold.woff') format('woff'), /* Modern Browsers */
+         url('AnsleyDisplay-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('AnsleyDisplay-Bold.svg#AnsleyDisplay-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
