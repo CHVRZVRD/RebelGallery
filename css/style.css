@@ -134,6 +134,11 @@ body {
   font-size: 40rem;
   color: #ebebeb; }
 
+.eyebrow {
+  width: 4.8rem;
+  height: .4rem;
+  border-top: 0.4rem solid #e23131; }
+
 .u-center-text {
   text-align: center !important; }
 
@@ -173,11 +178,14 @@ body {
     object-fit: cover; }
 
 .btn, .btn:link, .btn:visited {
-  padding: 3rem 1.5rem;
+  padding: 1.5rem 3rem;
   width: 15.6rem;
   height: 4.8rem;
   text-transform: uppercase;
   text-decoration: none;
+  font-size: 1.2rem;
+  letter-spacing: .15rem;
+  line-height: 1.5;
   border: none;
   cursor: pointer; }
 
@@ -187,17 +195,6 @@ body {
 
 .btn::after {
   content: ""; }
-
-.btn-text:link, .btn-text:visited {
-  width: 9.6rem;
-  height: 1.8rem;
-  line-height: 1.5;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: 700;
-  letter-spacing: .15px;
-  text-align: center; }
 
 .card {
   perspective: 150rem;
