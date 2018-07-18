@@ -55,8 +55,8 @@ html {
 
 .container {
   display: grid;
-  grid-template-rows: 100vh repeat(18, auto);
-  grid-template-columns: repeat(12, 1fr); }
+  grid-template-rows: 100vh repeat(9, min-content);
+  grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end]; }
 
 @font-face {
   font-family: 'AnsleyDisplay';
@@ -172,11 +172,13 @@ body {
 .btn::after {
   content: ""; }
 
-.about__pictures {
-  background-color: #999; }
+.about__picture {
+  background-color: #999;
+  grid-column: full-start / col-end 4; }
 
 .about__content {
-  background-color: #777; }
+  background-color: #777;
+  grid-column: col-start 5 / full-end; }
 
 .footer {
   background-color: #333;
@@ -232,6 +234,7 @@ body {
         float: none; } }
 
 .header {
+  grid-column: full-start / full-end;
   height: 100vh;
   background-image: linear-gradient(to right, rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../img/hero.jpg);
   background-size: cover;
@@ -273,52 +276,68 @@ body {
     color: #fff; }
 
 .contact__form {
-  background-color: #55c57a; }
+  background-color: #429ead;
+  grid-column: full-start / col-end 4; }
 
 .contact__info {
-  background-color: #e23131; }
+  background-color: #31d4ed;
+  grid-column: col-start 5 / full-end; }
 
 .amber__picture {
-  background-color: #28b485; }
+  background-color: #999;
+  grid-column: full-start / col-end 4; }
 
 .amber__content {
-  background-color: #7ed56f; }
+  background-color: #777;
+  grid-column: col-start 5 / full-end; }
 
 .ash__picture {
-  background-color: #777; }
+  background-color: #999;
+  grid-column: full-start / col-end 4; }
 
 .ash__content {
-  background-color: #999; }
+  background-color: #777;
+  grid-column: col-start 5 / full-end; }
 
 .chad__picture {
-  background-color: #429ead; }
+  background-color: #999;
+  grid-column: full-start / col-end 4; }
 
 .chad__content {
-  background-color: #007b8d; }
+  background-color: #777;
+  grid-column: col-start 5 / full-end; }
 
 .isaiah__picture {
-  background-color: #5643fa; }
+  background-color: #999;
+  grid-column: full-start / col-end 4; }
 
 .isaiah__content {
-  background-color: #2998ff; }
+  background-color: #777;
+  grid-column: col-start 5 / full-end; }
 
 .jay__picture {
-  background-color: #429ead; }
+  background-color: #999;
+  grid-column: full-start / col-end 4; }
 
 .jay__content {
-  background-color: #31d4ed; }
+  background-color: #777;
+  grid-column: col-start 5 / full-end; }
 
 .kim__picture {
-  background-color: #ff7730; }
+  background-color: #999;
+  grid-column: full-start / col-end 4; }
 
 .kim__content {
-  background-color: #ffb900; }
+  background-color: #777;
+  grid-column: col-start 5 / full-end; }
 
 .mark__picture {
-  background-color: #429ead; }
+  background-color: #999;
+  grid-column: full-start / col-end 4; }
 
 .mark__content {
-  background-color: #31d4ed; }
+  background-color: #777;
+  grid-column: col-start 5 / full-end; }
 
 .navigation__checkbox {
   display: none; }

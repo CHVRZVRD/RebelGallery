@@ -1,4 +1,6 @@
 .header {
+	grid-column: full-start / full-end;
+
 	height: 100vh;
 	background-image: 
 	linear-gradient(to right, rgba($color-black, 0.6), rgba($color-black, 0.6)),
