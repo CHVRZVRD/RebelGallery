@@ -13,9 +13,11 @@ html {
 }
 
 body {
-	box-sizing: border-box;
+	
 }
 
 .container {
-	
+	display: grid;
+	grid-template-rows: 100vh repeat(18, auto);
+	grid-template-columns: repeat(12, 1fr);
 }

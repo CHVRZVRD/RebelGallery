@@ -53,8 +53,10 @@ ORDER: base + typography > general layout + grid > page layout > components
 html {
   font-size: 62.5%; }
 
-body {
-  box-sizing: border-box; }
+.container {
+  display: grid;
+  grid-template-rows: 100vh repeat(18, auto);
+  grid-template-columns: repeat(12, 1fr); }
 
 @font-face {
   font-family: 'AnsleyDisplay';
