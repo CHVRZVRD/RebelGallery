@@ -52,21 +52,9 @@ ORDER: base + typography > general layout + grid > page layout > components
 
 html {
   font-size: 62.5%; }
-  @media only screen and (max-width: 75em) {
-    html {
-      font-size: 56.25%; } }
-  @media only screen and (max-width: 56.25em) {
-    html {
-      font-size: 50%; } }
-  @media only screen and (min-width: 112.5em) {
-    html {
-      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
-  @media only screen and (max-width: 56.25em) {
-    body {
-      padding: 0; } }
 
 @font-face {
   font-family: 'AnsleyDisplay';
@@ -275,6 +263,12 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff; }
+
+.contact__form {
+  background-color: #55c57a; }
+
+.contact__info {
+  background-color: #0c0c0c; }
 
 .navigation__checkbox {
   display: none; }
