@@ -116,8 +116,11 @@ body {
   text-transform: uppercase; }
 
 .paragraph {
+  width: 38.6rem;
   font-size: 1.6rem;
-  color: #0c0c0c; }
+  color: #0c0c0c;
+  line-height: 1.88;
+  letter-spacing: .08rem; }
 
 .numbers {
   font-family: 'UnifrakturMaguntia', cursive;
@@ -166,6 +169,7 @@ body {
   letter-spacing: .15rem;
   line-height: 1.5;
   border: none;
+  border-radius: 0;
   cursor: pointer; }
 
 .btn--red {
@@ -180,7 +184,14 @@ body {
 
 .about__content {
   grid-column: col-start 5 / full-end;
-  padding: 24.2rem 13.5rem; }
+  padding: 24.2rem 13.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; }
+
+.number--1 {
+  grid-column: col-start 7 / full-end; }
 
 .footer {
   background-color: #333;

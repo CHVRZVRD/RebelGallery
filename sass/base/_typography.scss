@@ -81,8 +81,11 @@ body {
 }
 
 .paragraph {
+	width: 38.6rem;
 	font-size: $default-font-size;
 	color: $color-black;
+	line-height: 1.88;
+	letter-spacing: .08rem;
 }
 
 .numbers {
