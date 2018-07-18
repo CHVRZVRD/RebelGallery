@@ -170,11 +170,11 @@ body {
 .btn::after {
   content: ""; }
 
-.about__pictures {
-  background-color: #777; }
+.contact__form {
+  background-color: #55c57a; }
 
-.about__content {
-  background-color: #999; }
+.contact__info {
+  background-color: #e23131; }
 
 .footer {
   background-color: #333;
@@ -270,6 +270,12 @@ body {
     text-align: center;
     color: #fff; }
 
+.contact__form {
+  background-color: #55c57a; }
+
+.contact__info {
+  background-color: #e23131; }
+
 .amber__picture {
   background-color: #28b485; }
 
@@ -287,12 +293,6 @@ body {
 
 .chad__content {
   background-color: #007b8d; }
-
-.contact__form {
-  background-color: #55c57a; }
-
-.contact__info {
-  background-color: #e23131; }
 
 .isaiah__picture {
   background-color: #5643fa; }
