@@ -1,11 +1,11 @@
 .about {
     &__picture {
-        background-color: $color-grey-dark-2;
         grid-column: full-start / col-end 4; 
     }
       
     &__content {
-        background-color: $color-grey-dark;
-        grid-column: col-start 5 / full-end;  
+        grid-column: col-start 5 / full-end;
+        
+        padding: 24.2rem 13.5rem;
     }
 }      

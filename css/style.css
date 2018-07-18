@@ -56,7 +56,7 @@ html {
 .container {
   display: grid;
   grid-template-rows: 100vh repeat(9, min-content);
-  grid-template-columns: [full-start] 1fr [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] 1fr [full-end]; }
+  grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
 
 @font-face {
   font-family: 'AnsleyDisplay';
@@ -127,13 +127,14 @@ body {
 .eyebrow {
   width: 4.8rem;
   height: .4rem;
-  border-top: 0.4rem solid #e23131; }
+  border-top: 0.4rem solid #e23131;
+  margin-bottom: 3rem; }
 
 .u-center-text {
   text-align: center !important; }
 
 .u-margin-bottom-small {
-  margin-bottom: 1.5rem !important; }
+  margin-bottom: 1.2rem !important; }
 
 .u-margin-bottom-medium {
   margin-bottom: 4rem !important; }
@@ -150,11 +151,13 @@ body {
 .u-margin-top-big {
   margin-top: 8rem !important; }
 
+.u-margin-top-med {
+  margin-top: 4rem !important; }
+
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
 .btn, .btn:link, .btn:visited {
-  padding: 1.5rem 3rem;
   width: 15.6rem;
   height: 4.8rem;
   text-transform: uppercase;
@@ -173,12 +176,11 @@ body {
   content: ""; }
 
 .about__picture {
-  background-color: #999;
   grid-column: full-start / col-end 4; }
 
 .about__content {
-  background-color: #777;
-  grid-column: col-start 5 / full-end; }
+  grid-column: col-start 5 / full-end;
+  padding: 24.2rem 13.5rem; }
 
 .footer {
   background-color: #333;
