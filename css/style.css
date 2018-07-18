@@ -56,7 +56,8 @@ html {
 .container {
   display: grid;
   grid-template-rows: 100vh repeat(9, min-content);
-  grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end]; }
+  grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+  grid-row-gap: 2.2rem; }
 
 @font-face {
   font-family: 'AnsleyDisplay';
@@ -180,7 +181,11 @@ body {
   content: ""; }
 
 .about__picture {
-  grid-column: full-start / col-end 4; }
+  grid-column: full-start / col-end 4;
+  display: grid; }
+
+.about__img {
+  width: 85%; }
 
 .about__content {
   grid-column: col-start 5 / full-end;
@@ -191,7 +196,10 @@ body {
   align-items: flex-start; }
 
 .number--1 {
-  grid-column: col-start 7 / full-end; }
+  position: relative;
+  left: 55%;
+  bottom: 34.5%;
+  z-index: -1; }
 
 .footer {
   background-color: #333;

@@ -1,6 +1,12 @@
 .about {
     &__picture {
-        grid-column: full-start / col-end 4; 
+        grid-column: full-start / col-end 4;
+        
+        display: grid;
+    }
+
+    &__img {
+        width: 85%;
     }
       
     &__content {
@@ -16,5 +22,8 @@
 } 
 
 .number--1 {
-    grid-column: col-start 7 / full-end;
+    position: relative;
+    left: 55%;
+    bottom: 34.5%;
+    z-index: -1;
 }
