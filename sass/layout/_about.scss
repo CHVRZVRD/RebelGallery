@@ -1,9 +1,9 @@
-.contact {
-    &__form {
-        background-color: #55c57a; 
+.about {
+    &__pictures {
+        background-color: $color-grey-dark-2; 
     }
       
-    &__info {
-        background-color: #e23131; 
+    &__content {
+        background-color: $color-grey-dark; 
     }
 }      

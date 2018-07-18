@@ -170,11 +170,11 @@ body {
 .btn::after {
   content: ""; }
 
-.contact__form {
-  background-color: #55c57a; }
+.about__pictures {
+  background-color: #999; }
 
-.contact__info {
-  background-color: #e23131; }
+.about__content {
+  background-color: #777; }
 
 .footer {
   background-color: #333;

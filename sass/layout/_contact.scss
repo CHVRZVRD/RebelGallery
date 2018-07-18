@@ -1,7 +1,9 @@
-.contact__form {
-    background-color: $color-primary;
-}
-
-.contact__info {
-    background-color: $color-secondary;
-}
+.contact {
+    &__form {
+        background-color: #55c57a; 
+    }
+      
+    &__info {
+        background-color: #e23131; 
+    }
+}  
