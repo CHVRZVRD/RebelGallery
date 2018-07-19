@@ -10,7 +10,26 @@
       
     &__content {
         grid-column: col-start 5 / full-end;
-        padding: 24.2rem 13.5rem;  
+
+        padding: 24.2rem 13.5rem;
+        
+        display: grid;
+        align-content: center;
+        justify-items: start;
+    }
+
+    .M {
+        position: relative;
+        left: 40%;
+        bottom: 60%;
+        z-index: 3;
+    }
+    
+    .V {
+        position: relative;
+        right: 75%;
+        bottom: 10%;
+        z-index: -1;
     }
 }
 

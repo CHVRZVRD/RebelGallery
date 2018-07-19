@@ -93,6 +93,11 @@ body {
 	font-size: 40rem;
 	color: $color-grey;
 	line-height: 0;
+
+	position: relative;
+    left: 55%;
+    bottom: 21.35%;
+    z-index: -1;
 }
 
 .letter {

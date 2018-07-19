@@ -127,7 +127,11 @@ body {
   font-family: 'UnifrakturMaguntia', cursive;
   font-size: 40rem;
   color: #ebebeb;
-  line-height: 0; }
+  line-height: 0;
+  position: relative;
+  left: 55%;
+  bottom: 21.35%;
+  z-index: -1; }
 
 .letter {
   font-family: 'UnifrakturMaguntia', cursive;
@@ -201,12 +205,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start; }
-
-.number--1 {
-  position: relative;
-  left: 55%;
-  bottom: 21.35%;
-  z-index: -1; }
 
 .R {
   position: relative;
@@ -332,7 +330,22 @@ body {
 
 .mark__content {
   grid-column: col-start 5 / full-end;
-  padding: 24.2rem 13.5rem; }
+  padding: 24.2rem 13.5rem;
+  display: grid;
+  align-content: center;
+  justify-items: start; }
+
+.mark .M {
+  position: relative;
+  left: 40%;
+  bottom: 60%;
+  z-index: 3; }
+
+.mark .V {
+  position: relative;
+  right: 75%;
+  bottom: 10%;
+  z-index: -1; }
 
 .amber__picture {
   background-color: #999;
