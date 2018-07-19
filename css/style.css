@@ -212,7 +212,13 @@ body {
   position: relative;
   left: 40%;
   bottom: 60%;
-  z-index: 2; }
+  z-index: 3; }
+
+.G {
+  position: relative;
+  right: 75%;
+  bottom: 10%;
+  z-index: -1; }
 
 .footer {
   background-color: #333;
