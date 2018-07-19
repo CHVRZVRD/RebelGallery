@@ -129,6 +129,12 @@ body {
   color: #ebebeb;
   line-height: 0; }
 
+.letter {
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 42rem;
+  color: #e23131;
+  line-height: 0; }
+
 .eyebrow {
   width: 4.8rem;
   height: .4rem;
@@ -201,6 +207,12 @@ body {
   left: 55%;
   bottom: 21.35%;
   z-index: -1; }
+
+.R {
+  position: relative;
+  left: 40%;
+  bottom: 60%;
+  z-index: 2; }
 
 .footer {
   background-color: #333;
