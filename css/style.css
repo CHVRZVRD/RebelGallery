@@ -323,6 +323,17 @@ body {
   background-color: #31d4ed;
   grid-column: col-start 5 / full-end; }
 
+.mark__picture {
+  grid-column: full-start / col-end 4; }
+
+.mark__img {
+  width: 85%;
+  object-fit: cover; }
+
+.mark__content {
+  grid-column: col-start 5 / full-end;
+  padding: 24.2rem 13.5rem; }
+
 .amber__picture {
   background-color: #999;
   grid-column: full-start / col-end 4; }
@@ -368,14 +379,6 @@ body {
   grid-column: full-start / col-end 4; }
 
 .kim__content {
-  background-color: #777;
-  grid-column: col-start 5 / full-end; }
-
-.mark__picture {
-  background-color: #999;
-  grid-column: full-start / col-end 4; }
-
-.mark__content {
   background-color: #777;
   grid-column: col-start 5 / full-end; }
 
