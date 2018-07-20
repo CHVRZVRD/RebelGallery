@@ -347,7 +347,8 @@ body {
   grid-column: col-start 5 / full-end; }
 
 .mark__picture {
-  grid-column: full-start / col-end 4; }
+  grid-column: full-start / col-end 4;
+  position: relative; }
 
 .mark__img {
   width: 85%;
@@ -374,16 +375,16 @@ body {
       letter-spacing: .2rem;
       text-transform: uppercase; }
 
-.mark .M {
-  position: relative;
-  left: 40%;
+.M {
+  position: absolute;
+  left: 41%;
   bottom: 60%;
   z-index: 3; }
 
-.mark .V {
-  position: relative;
-  right: 75%;
-  bottom: 10%;
+.V {
+  position: absolute;
+  right: -20%;
+  bottom: 38%;
   z-index: -1; }
 
 .amber__picture {

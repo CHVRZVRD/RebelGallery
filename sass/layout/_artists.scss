@@ -1,6 +1,8 @@
 .mark {
     &__picture {
-        grid-column: full-start / col-end 4; 
+        grid-column: full-start / col-end 4;
+        
+        position: relative;
     }
 
     &__img {
@@ -61,20 +63,20 @@
         } 
 
     }
+}
 
-    .M {
-        position: relative;
-        left: 40%;
-        bottom: 60%;
-        z-index: 3;
-    }
-    
-    .V {
-        position: relative;
-        right: 75%;
-        bottom: 10%;
-        z-index: -1;
-    }
+.M {
+    position: absolute;
+    left: 41%;
+    bottom: 60%;
+    z-index: 3;
+}
+
+.V {
+    position: absolute;
+    right: -20%;
+    bottom: 38%;
+    z-index: -1;
 }
 
 .amber {
