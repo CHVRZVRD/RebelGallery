@@ -154,7 +154,7 @@ body {
   margin-bottom: 3rem;
   position: relative; }
 
-.artist {
+.artist-text {
   position: absolute;
   left: 125%;
   bottom: 150%;
@@ -345,94 +345,46 @@ body {
   background-color: #31d4ed;
   grid-column: col-start 5 / full-end; }
 
-.mark__picture {
+.artists__picture {
   grid-column: full-start / col-end 4;
   position: relative; }
 
-.mark__img {
+.artists__img {
   width: 85%;
   object-fit: cover; }
 
-.mark__content {
+.artists__content {
   width: 38.6rem;
   grid-column: col-start 5 / full-end;
   padding: 24.2rem 13.5rem;
   display: grid;
   align-content: center;
   justify-items: start; }
-  .mark__content__heading {
+  .artists__content__heading {
     grid-row: 2 / 2; }
-  .mark__content__specialty {
+  .artists__content__specialty {
     margin-top: 3.2rem;
     margin-bottom: 4rem;
     display: grid;
     grid-template-columns: auto 1fr;
     grid-column-gap: 3.8rem; }
-    .mark__content__specialty--head {
+    .artists__content__specialty--head {
       grid-row: 1 / span 3;
       width: 9.9rem;
       letter-spacing: .2rem;
       text-transform: uppercase; }
 
-.M {
+.bl1 {
   position: absolute;
   left: 41%;
   bottom: 60%;
   z-index: 3; }
 
-.V {
+.bl2 {
   position: absolute;
   right: -20%;
   bottom: 38%;
   z-index: -1; }
-
-.amber__picture {
-  background-color: #999;
-  grid-column: full-start / col-end 4; }
-
-.amber__content {
-  background-color: #777;
-  grid-column: col-start 5 / full-end; }
-
-.ash__picture {
-  background-color: #999;
-  grid-column: full-start / col-end 4; }
-
-.ash__content {
-  background-color: #777;
-  grid-column: col-start 5 / full-end; }
-
-.chad__picture {
-  background-color: #999;
-  grid-column: full-start / col-end 4; }
-
-.chad__content {
-  background-color: #777;
-  grid-column: col-start 5 / full-end; }
-
-.isaiah__picture {
-  background-color: #999;
-  grid-column: full-start / col-end 4; }
-
-.isaiah__content {
-  background-color: #777;
-  grid-column: col-start 5 / full-end; }
-
-.jay__picture {
-  background-color: #999;
-  grid-column: full-start / col-end 4; }
-
-.jay__content {
-  background-color: #777;
-  grid-column: col-start 5 / full-end; }
-
-.kim__picture {
-  background-color: #999;
-  grid-column: full-start / col-end 4; }
-
-.kim__content {
-  background-color: #777;
-  grid-column: col-start 5 / full-end; }
 
 .navigation__checkbox {
   display: none; }

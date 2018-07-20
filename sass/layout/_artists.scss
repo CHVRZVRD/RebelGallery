@@ -1,4 +1,4 @@
-.mark {
+.artists {
     &__picture {
         grid-column: full-start / col-end 4;
         
@@ -65,90 +65,93 @@
     }
 }
 
-.M {
+.bl1 {
     position: absolute;
     left: 41%;
     bottom: 60%;
     z-index: 3;
 }
 
-.V {
+.bl2 {
     position: absolute;
     right: -20%;
     bottom: 38%;
     z-index: -1;
 }
 
-.amber {
-    &__picture {
-        background-color: $color-grey-dark-2;
-        grid-column: full-start / col-end 4; 
-    }
+
+
+
+// .amber {
+//     &__picture {
+//         background-color: $color-grey-dark-2;
+//         grid-column: full-start / col-end 4; 
+//     }
       
-    &__content {
-        background-color: $color-grey-dark;
-        grid-column: col-start 5 / full-end;  
-    }
-}
+//     &__content {
+//         background-color: $color-grey-dark;
+//         grid-column: col-start 5 / full-end;  
+//     }
+// }
   
-.ash {
-    &__picture {
-        background-color: $color-grey-dark-2;
-        grid-column: full-start / col-end 4; 
-    }
+// .ash {
+//     &__picture {
+//         background-color: $color-grey-dark-2;
+//         grid-column: full-start / col-end 4; 
+//     }
       
-    &__content {
-        background-color: $color-grey-dark;
-        grid-column: col-start 5 / full-end;  
-    }
-}
+//     &__content {
+//         background-color: $color-grey-dark;
+//         grid-column: col-start 5 / full-end;  
+//     }
+// }
   
-.chad {
-    &__picture {
-        background-color: $color-grey-dark-2;
-        grid-column: full-start / col-end 4; 
-    }
+// .chad {
+//     &__picture {
+//         background-color: $color-grey-dark-2;
+//         grid-column: full-start / col-end 4; 
+//     }
       
-    &__content {
-        background-color: $color-grey-dark;
-        grid-column: col-start 5 / full-end;  
-    }
-}
+//     &__content {
+//         background-color: $color-grey-dark;
+//         grid-column: col-start 5 / full-end;  
+//     }
+// }
   
-.isaiah {
-    &__picture {
-        background-color: $color-grey-dark-2;
-        grid-column: full-start / col-end 4; 
-    }
+// .isaiah {
+//     &__picture {
+//         background-color: $color-grey-dark-2;
+//         grid-column: full-start / col-end 4; 
+//     }
       
-    &__content {
-        background-color: $color-grey-dark;
-        grid-column: col-start 5 / full-end;  
-    }
-}
+//     &__content {
+//         background-color: $color-grey-dark;
+//         grid-column: col-start 5 / full-end;  
+//     }
+// }
   
-.jay {
-    &__picture {
-        background-color: $color-grey-dark-2;
-        grid-column: full-start / col-end 4; 
-    }
+// .jay {
+//     &__picture {
+//         background-color: $color-grey-dark-2;
+//         grid-column: full-start / col-end 4; 
+//     }
       
-    &__content {
-        background-color: $color-grey-dark;
-        grid-column: col-start 5 / full-end;  
-    }
-}
+//     &__content {
+//         background-color: $color-grey-dark;
+//         grid-column: col-start 5 / full-end;  
+//     }
+// }
   
-.kim {
-    &__picture {
-        background-color: $color-grey-dark-2;
-        grid-column: full-start / col-end 4; 
-    }
+// .kim {
+//     &__picture {
+//         background-color: $color-grey-dark-2;
+//         grid-column: full-start / col-end 4; 
+//     }
       
-    &__content {
-        background-color: $color-grey-dark;
-        grid-column: col-start 5 / full-end;  
-    }
-}
+//     &__content {
+//         background-color: $color-grey-dark;
+//         grid-column: col-start 5 / full-end;  
+//     }
+// }
   
 
