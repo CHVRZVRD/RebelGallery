@@ -3,6 +3,8 @@
         grid-column: full-start / col-end 4;
         
         display: grid;
+
+        position: relative;
     }
 
     &__img {
@@ -19,19 +21,21 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
+
+        // position: relative;
     }
 } 
 
 .R {
-    position: relative;
-    left: 40%;
+    position: absolute;
+    left: 41%;
     bottom: 60%;
     z-index: 3;
 }
 
 .G {
-    position: relative;
-    right: 75%;
-    bottom: 10%;
+    position: absolute;
+    right: -17%;
+    bottom: 38%;
     z-index: -1;
 }

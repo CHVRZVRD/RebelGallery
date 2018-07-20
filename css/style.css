@@ -216,7 +216,8 @@ body {
 
 .about__picture {
   grid-column: full-start / col-end 4;
-  display: grid; }
+  display: grid;
+  position: relative; }
 
 .about__img {
   width: 85%; }
@@ -231,15 +232,15 @@ body {
   align-items: flex-start; }
 
 .R {
-  position: relative;
-  left: 40%;
+  position: absolute;
+  left: 41%;
   bottom: 60%;
   z-index: 3; }
 
 .G {
-  position: relative;
-  right: 75%;
-  bottom: 10%;
+  position: absolute;
+  right: -17%;
+  bottom: 38%;
   z-index: -1; }
 
 .footer {
