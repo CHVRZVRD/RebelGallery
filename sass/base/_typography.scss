@@ -81,11 +81,17 @@ body {
 }
 
 .paragraph {
-	width: 38.6rem;
+	// width: 38.6rem;
 	font-size: $default-font-size;
 	color: $color-black;
 	line-height: 1.88;
 	letter-spacing: .08rem;
+
+	&--specialty {
+		width: 12.3rem;
+		line-height: 1.88;
+		letter-spacing: .08rem;
+	}
 }
 
 .numbers {
@@ -93,11 +99,21 @@ body {
 	font-size: 40rem;
 	color: $color-grey;
 	line-height: 0;
-
-	position: relative;
-    left: 55%;
-    bottom: 21.35%;
-    z-index: -1;
+	z-index: -1;
+	
+	&--about {
+		position: relative;
+    	left: 55%;
+    	bottom: 21.35%;
+		
+	}
+	
+	&--artists {
+		position: relative;
+    	left: 55%;
+   	 	bottom: 24%;
+		
+	}
 }
 
 .letter {
@@ -108,13 +124,28 @@ body {
 }
 
 .eyebrow {
+
+	grid-row: 1 / 2;
+
 	width: 4.8rem;
 	height: .4rem; 
 	border-top: .4rem solid $color-secondary;
 	margin-bottom: 3rem;
+	position: relative;
+
+	// position: absolute;
 	
 }
 
 .artist {
-	float: top;
+	position: absolute;
+	left: 125%;
+	bottom: 150%;
+
+	width: 6.2rem;
+	color: $color-secondary;
+	text-transform: uppercase;
+	line-height: 0;
+	font-size: 1.4rem;
+	letter-spacing: .21rem;
 }

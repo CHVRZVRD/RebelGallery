@@ -117,21 +117,29 @@ body {
   text-transform: uppercase; }
 
 .paragraph {
-  width: 38.6rem;
   font-size: 1.6rem;
   color: #0c0c0c;
   line-height: 1.88;
   letter-spacing: .08rem; }
+  .paragraph--specialty {
+    width: 12.3rem;
+    line-height: 1.88;
+    letter-spacing: .08rem; }
 
 .numbers {
   font-family: 'UnifrakturMaguntia', cursive;
   font-size: 40rem;
   color: #ebebeb;
   line-height: 0;
-  position: relative;
-  left: 55%;
-  bottom: 21.35%;
   z-index: -1; }
+  .numbers--about {
+    position: relative;
+    left: 55%;
+    bottom: 21.35%; }
+  .numbers--artists {
+    position: relative;
+    left: 55%;
+    bottom: 24%; }
 
 .letter {
   font-family: 'UnifrakturMaguntia', cursive;
@@ -140,13 +148,23 @@ body {
   line-height: 0; }
 
 .eyebrow {
+  grid-row: 1 / 2;
   width: 4.8rem;
   height: .4rem;
   border-top: 0.4rem solid #e23131;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+  position: relative; }
 
 .artist {
-  float: top; }
+  position: absolute;
+  left: 125%;
+  bottom: 150%;
+  width: 6.2rem;
+  color: #e23131;
+  text-transform: uppercase;
+  line-height: 0;
+  font-size: 1.4rem;
+  letter-spacing: .21rem; }
 
 .u-center-text {
   text-align: center !important; }
@@ -190,6 +208,8 @@ body {
 .btn--red {
   background-color: #e23131;
   color: #fff; }
+  .btn--red--artist {
+    width: 21.9rem; }
 
 .btn::after {
   content: ""; }
@@ -202,6 +222,7 @@ body {
   width: 85%; }
 
 .about__content {
+  width: 38.6rem;
   grid-column: col-start 5 / full-end;
   padding: 24.2rem 13.5rem;
   display: flex;
@@ -332,20 +353,25 @@ body {
   object-fit: cover; }
 
 .mark__content {
+  width: 38.6rem;
   grid-column: col-start 5 / full-end;
   padding: 24.2rem 13.5rem;
   display: grid;
   align-content: center;
   justify-items: start; }
   .mark__content__heading {
-    grid-row: 2 / 2;
-    grid-column: 1 / -1; }
+    grid-row: 2 / 2; }
   .mark__content__specialty {
+    margin-top: 3.2rem;
+    margin-bottom: 4rem;
     display: grid;
-    grid-template-columns: min-content 1fr;
-    grid-column-gap: 5rem; }
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 3.8rem; }
     .mark__content__specialty--head {
-      grid-row: 1 / span 3; }
+      grid-row: 1 / span 3;
+      width: 9.9rem;
+      letter-spacing: .2rem;
+      text-transform: uppercase; }
 
 .mark .M {
   position: relative;
