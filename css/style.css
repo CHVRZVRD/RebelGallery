@@ -216,7 +216,6 @@ body {
   font-size: 1.2rem;
   letter-spacing: .15rem;
   color: #cccccc;
-  padding: 1.5rem 2rem;
   border: solid 0.1rem #cccccc;
   width: 100%;
   display: block;
@@ -380,7 +379,7 @@ body {
     margin-left: 13.7rem; }
     .contact__form__container {
       display: grid;
-      grid-template-columns: 23.8rem 23.8rem;
+      grid-template-columns: repeat(2, minmax(11rem, 1fr));
       grid-template-rows: repeat(4, auto);
       grid-column-gap: 1.4rem;
       grid-row-gap: 1.5rem; }

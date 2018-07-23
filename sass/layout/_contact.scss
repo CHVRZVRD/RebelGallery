@@ -20,8 +20,8 @@
         
         &__container {
             display: grid;
-            grid-template-columns: 23.8rem 23.8rem;
-            // grid-template-columns: repeat(2, minmax(100%, 23.8rem));
+            // grid-template-columns: 1fr 1fr;
+            grid-template-columns: repeat(2, minmax(11rem, 1fr));
             grid-template-rows:  repeat(4, auto);
             grid-column-gap: 1.4rem;
             grid-row-gap: 1.5rem;
