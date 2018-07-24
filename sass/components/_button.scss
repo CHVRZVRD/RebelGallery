@@ -35,13 +35,27 @@
 			width: 21.9rem;
 		}
 
+		&--contact {
+			width: 19.1rem;
+			float: right;
+			border: solid .1rem $color-secondary;
+			margin-left: .75rem;
+		}
+
 		&::after {
 			
 		}
 	}
 
 	&--transparent {
-		
+		background-color: transparent;
+		color: $color-secondary;
+		border: solid .1rem $color-secondary;
+
+		&--contact {
+			width: 16.8rem;
+			margin-right: .75rem;
+		}
 
 		&::after {
 			

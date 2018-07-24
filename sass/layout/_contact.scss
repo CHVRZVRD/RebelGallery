@@ -9,12 +9,15 @@
 	background-size: cover;
     background-position: center;
     z-index: -10;
+
+    padding-top: 9.5rem;
     
     &__map {
         
     }
 
     &__form {
+
         grid-column: 1 / 2;
 
         margin-left: 13.7rem;
@@ -34,27 +37,39 @@
         grid-column: 2 / 2; 
     
     }
+
+    &__buttons {
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
 }
 
 .firstname {
     grid-column: 1 / 2;
+    height: 4rem;
 }
 
 .lastname {
     grid-column: 2 / 2;
+    height: 4rem;
 }
 
 .email {
     grid-column: 1 / 3;
     grid-row: 2;
+    height: 4rem;
 }
 
 .subject {
     grid-column: 1 / 3;
     grid-row: 3;
+    height: 4rem;
 }
 
 .message {
     grid-column: 1 / 3;
     grid-row: 4;
+
+    height: 17.5rem;
 }
