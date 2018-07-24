@@ -142,7 +142,8 @@ body {
   .numbers--contact {
     position: relative;
     left: 55%;
-    bottom: -50%; }
+    bottom: -50%;
+    z-index: 1; }
 
 .letter {
   font-family: 'UnifrakturMaguntia', cursive;
@@ -396,7 +397,6 @@ body {
   background-image: url(../img/map@3x.jpg);
   background-size: cover;
   background-position: center;
-  z-index: -10;
   padding-top: 9.5rem; }
   .contact__form {
     grid-column: 1 / 2;
