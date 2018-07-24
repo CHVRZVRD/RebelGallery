@@ -142,7 +142,7 @@ body {
   .numbers--contact {
     position: relative;
     left: 55%;
-    bottom: -50%;
+    bottom: 38%;
     z-index: 1; }
 
 .letter {
@@ -409,6 +409,14 @@ body {
       grid-row-gap: 1.5rem; }
   .contact__info {
     grid-column: 2 / 2; }
+    .contact__info--grid {
+      display: grid;
+      z-index: 2;
+      margin-top: 3.2rem;
+      margin-bottom: 4rem;
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-column-gap: 3.8rem; }
   .contact__buttons {
     display: flex;
     flex-direction: row-reverse; }
