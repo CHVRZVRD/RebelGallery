@@ -4,50 +4,47 @@
     }
     
     &__button {
-        background-color: $color-white;
-        height: 7rem;
-        width: 7rem;
-        position: fixed;
-        top: 6rem;
-        right: 6rem;
-        border-radius: 50%;
+        height: 2rem;
+        width: 4rem;
+        position: absolute;
+        top: 4.05rem;
+        right: 4rem;
         z-index: 2000;
-        box-shadow: 0 1rem 3rem rgba($color-black, .1);
         text-align: center;
         cursor: pointer;
 
-        @include respond(tab-port) {
-            top: 4rem;
-            right: 4rem;
-        }
+        // @include respond(tab-port) {
+        //     top: 4rem;
+        //     right: 4rem;
+        // }
 
-        @include respond(phone) {
-            top: 3rem;
-            right: 3rem;
-        }
+        // @include respond(phone) {
+        //     top: 3rem;
+        //     right: 3rem;
+        // }
     }
 
-    &__background {
-        height: 6rem;
-        width: 6rem;
-        border-radius: 50%;
-        position: fixed;
-        top: 6.5rem;
-        right: 6.5rem;
-        background-image: radial-gradient($color-primary-light, $color-primary-dark);
-        z-index: 1000;
-        transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
+    // &__background {
+    //     height: 6rem;
+    //     width: 6rem;
+    //     border-radius: 50%;
+    //     position: fixed;
+    //     top: 6.5rem;
+    //     right: 6.5rem;
+    //     background-image: radial-gradient($color-primary-light, $color-primary-dark);
+    //     z-index: 1000;
+    //     transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
 
-        @include respond(tab-port) {
-            top: 4.5rem;
-            right: 4.5rem;
-        }
+    //     @include respond(tab-port) {
+    //         top: 4.5rem;
+    //         right: 4.5rem;
+    //     }
 
-        @include respond(phone) {
-            top: 3.5rem;
-            right: 3.5rem;
-        }
-    }    
+    //     @include respond(phone) {
+    //         top: 3.5rem;
+    //         right: 3.5rem;
+    //     }
+    // }    
 
     &__nav {
         height: 100vh;
@@ -117,14 +114,14 @@
     //ICON
     &__icon {
         position: relative;
-        margin-top: 3.5rem;
+        // margin-top: 3.5rem;
 
         &,
         &::before,
         &::after {
-            width: 3rem;
+            width: 4rem;
             height: 2px;
-            background-color: $color-grey-dark-3;
+            background-color: $color-white;
             display: inline-block;
         }
 
@@ -134,19 +131,21 @@
             position: absolute;
             left: 0;
             transition: all .3s;
+            width: 50%;
 
         }
 
-        &::before { top: -.8rem; }
-        &::after { top: .8rem; }
+        &::before { top: -1rem; }
+        &::after { top: 1rem; left:2rem; }
     }
 
     &__button:hover &__icon::before {
-        top: -1rem;
+        // top: -1rem;
+        transform: translateX(100%)
     }
 
     &__button:hover &__icon::after {
-        top: 1rem;
+        transform: translateX(-100%)
     }
 
     &__checkbox:checked + &__button &__icon {
