@@ -60,13 +60,13 @@ body {
 	letter-spacing: .2rem;
 	transition: all .2s;
 
-	@include respond(tab-port) {
-		font-size: 3rem;
-	}
+	// @include respond(tab-port) {
+	// 	font-size: 3rem;
+	// }
 
-	@include respond(phone) {
-		font-size: 2.5rem;
-	}
+	// @include respond(phone) {
+	// 	font-size: 2.5rem;
+	// }
 
 	&:hover {
 		transform: /*skewY(2deg) skewX(15deg)*/ scale(1.1);
@@ -179,7 +179,6 @@ body {
 		// justify-self: center;
 		display: block;
 		align-self: center;
-		
 
 		width: 100%;
 		// height: 100%;
