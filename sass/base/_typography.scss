@@ -94,35 +94,35 @@ body {
 	}
 }
 
-.numbers {
-	font-family: 'UnifrakturMaguntia', cursive;
-	font-size: 40rem;
-	color: $color-grey;
-	line-height: 0;
-	z-index: -1;
+// .numbers {
+// 	font-family: 'UnifrakturMaguntia', cursive;
+// 	font-size: 40rem;
+// 	color: $color-grey;
+// 	line-height: 0;
+// 	z-index: -1;
 	
-	&--about {
-		position: relative;
-    	left: 55%;
-    	bottom: 21.35%;
+// 	&--about {
+// 		position: relative;
+//     	left: 55%;
+//     	bottom: 21.35%;
 		
-	}
+// 	}
 	
-	&--artists {
-		position: relative;
-    	left: 55%;
-   	 	bottom: 24%;
+// 	&--artists {
+// 		position: relative;
+//     	left: 55%;
+//    	 	bottom: 24%;
 		
-	}
+// 	}
 
-	&--contact {
-		position: relative;
-    	left: 55%;
-   	 	top: 33%;	
-	}
+// 	&--contact {
+// 		position: relative;
+//     	left: 55%;
+//    	 	bottom: 24%;	
+// 	}
 
 
-}
+// }
 
 .letter {
 	font-family: 'UnifrakturMaguntia', cursive;
@@ -154,4 +154,26 @@ body {
 	line-height: 0;
 	font-size: 1.4rem;
 	letter-spacing: .21rem;
+}
+
+.numbers {
+	grid-column: 8 / -1;
+	grid-row: 2 / -1;
+
+	display: grid;
+	grid-template-columns: auto;
+	// justify-content: left;
+	// grid-template-rows: repeat(10, auto);
+
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 40rem;
+	color: $color-grey;
+	line-height: 0;
+	z-index: 1;
+
+	&__1 {
+		// justify-self: center;
+		align-self: center;
+	}
+
 }

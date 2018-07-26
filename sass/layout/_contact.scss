@@ -1,5 +1,6 @@
 .contact {
     grid-column: full-start / full-end;
+    grid-row: 10;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -35,7 +36,7 @@
       
     &__info {
         grid-column: 2 / 2;
-        z-index: 2;
+        z-index: 3;
         
         &--grid {
             display: grid;

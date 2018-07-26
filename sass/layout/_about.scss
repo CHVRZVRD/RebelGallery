@@ -1,6 +1,7 @@
 .about {
     &__picture {
         grid-column: full-start / col-end 4;
+        grid-row: 2;
         
         display: grid;
 
@@ -14,6 +15,7 @@
     &__content {
         width: 38.6rem;
         grid-column: col-start 5 / full-end;
+        grid-row: 2;
 
         padding: 24.2rem 13.5rem;
 

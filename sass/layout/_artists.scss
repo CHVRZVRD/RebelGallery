@@ -1,8 +1,46 @@
 .artists {
+
+    &__position {
+
+        &--1 {
+            grid-row: 3;
+        }
+
+        &--2 {
+            grid-row: 4;
+        }
+
+        &--3 {
+            grid-row: 5;
+        }
+
+        &--4 {
+            grid-row: 6;
+        }
+
+        &--5 {
+            grid-row: 7;
+        }
+
+        &--6 {
+            grid-row: 8;
+        }
+
+        &--7 {
+            grid-row: 9;
+        }
+
+
+    }
+
     &__picture {
         grid-column: full-start / col-end 4;
         
         position: relative;
+
+        &--1 {
+            
+        }
     }
 
     &__img {
@@ -19,6 +57,10 @@
         display: grid;
         align-content: center;
         justify-items: start;
+
+        &--1 {
+            
+        }
 
         &__eyebrow {
             // grid-row: 1 / 2;
@@ -42,7 +84,12 @@
                 width: 9.9rem;
                 letter-spacing: .2rem;
                 text-transform: uppercase;
+                line-height: 1.88;
                 
+                font-size: $default-font-size;
+	            color: $color-black;
+	            line-height: 1.88;
+	            
             }
 
             &--1 {

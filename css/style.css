@@ -56,6 +56,7 @@ html {
 .container {
   display: grid;
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
+  grid-template-rows: repeat(10, auto);
   grid-row-gap: 2.2rem; }
 
 @font-face {
@@ -125,25 +126,6 @@ body {
     line-height: 1.88;
     letter-spacing: .08rem; }
 
-.numbers {
-  font-family: 'UnifrakturMaguntia', cursive;
-  font-size: 40rem;
-  color: #ebebeb;
-  line-height: 0;
-  z-index: -1; }
-  .numbers--about {
-    position: relative;
-    left: 55%;
-    bottom: 21.35%; }
-  .numbers--artists {
-    position: relative;
-    left: 55%;
-    bottom: 24%; }
-  .numbers--contact {
-    position: relative;
-    left: 55%;
-    top: 33%; }
-
 .letter {
   font-family: 'UnifrakturMaguntia', cursive;
   font-size: 42rem;
@@ -167,6 +149,19 @@ body {
   line-height: 0;
   font-size: 1.4rem;
   letter-spacing: .21rem; }
+
+.numbers {
+  grid-column: 8 / -1;
+  grid-row: 2 / -1;
+  display: grid;
+  grid-template-columns: auto;
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 40rem;
+  color: #ebebeb;
+  line-height: 0;
+  z-index: 1; }
+  .numbers__1 {
+    align-self: center; }
 
 .u-center-text {
   text-align: center !important; }
@@ -266,6 +261,7 @@ body {
 
 .about__picture {
   grid-column: full-start / col-end 4;
+  grid-row: 2;
   display: grid;
   position: relative; }
 
@@ -275,6 +271,7 @@ body {
 .about__content {
   width: 38.6rem;
   grid-column: col-start 5 / full-end;
+  grid-row: 2;
   padding: 24.2rem 13.5rem;
   display: flex;
   flex-direction: column;
@@ -348,11 +345,13 @@ body {
 
 .header {
   grid-column: full-start / full-end;
+  grid-row: 1;
   height: 100vh;
   background-image: linear-gradient(to right, rgba(12, 12, 12, 0.6), rgba(12, 12, 12, 0.6)), url(../img/hero.jpg);
   background-size: cover;
   background-position: top;
-  position: relative; }
+  position: relative;
+  z-index: -2; }
   .header__logo-box {
     position: absolute;
     top: 3rem;
@@ -390,6 +389,7 @@ body {
 
 .contact {
   grid-column: full-start / full-end;
+  grid-row: 10;
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 100vh;
@@ -408,7 +408,7 @@ body {
       grid-row-gap: 1.5rem; }
   .contact__info {
     grid-column: 2 / 2;
-    z-index: 2; }
+    z-index: 3; }
     .contact__info--grid {
       display: grid;
       margin-top: 11.5rem;
@@ -472,6 +472,27 @@ body {
   grid-row: 4;
   height: 17.5rem; }
 
+.artists__position--1 {
+  grid-row: 3; }
+
+.artists__position--2 {
+  grid-row: 4; }
+
+.artists__position--3 {
+  grid-row: 5; }
+
+.artists__position--4 {
+  grid-row: 6; }
+
+.artists__position--5 {
+  grid-row: 7; }
+
+.artists__position--6 {
+  grid-row: 8; }
+
+.artists__position--7 {
+  grid-row: 9; }
+
 .artists__picture {
   grid-column: full-start / col-end 4;
   position: relative; }
@@ -499,7 +520,11 @@ body {
       grid-row: 1 / span 3;
       width: 9.9rem;
       letter-spacing: .2rem;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      line-height: 1.88;
+      font-size: 1.6rem;
+      color: #0c0c0c;
+      line-height: 1.88; }
 
 .bl1 {
   position: absolute;
