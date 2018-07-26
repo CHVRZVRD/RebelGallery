@@ -22,5 +22,5 @@ body {
 	grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 	grid-template-rows: repeat(10, auto);
 
-	grid-row-gap: 2.2rem;
+	grid-row-gap: 0rem;
 }
