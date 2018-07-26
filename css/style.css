@@ -263,7 +263,8 @@ body {
   transform: translateY(-4rem); }
 
 .about {
-  padding-top: 2.2rem; }
+  padding-top: 2.2rem;
+  z-index: 2; }
   .about__picture {
     grid-column: full-start / col-end 4;
     grid-row: 2;
@@ -354,7 +355,7 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
-  z-index: -2; }
+  z-index: -1; }
   .header__logo-box {
     position: absolute;
     top: 3rem;
@@ -476,7 +477,8 @@ body {
   height: 17.5rem; }
 
 .artists {
-  padding-top: 5.1rem; }
+  padding-top: 5.1rem;
+  z-index: 2; }
   .artists__position--1 {
     grid-row: 3; }
   .artists__position--2 {

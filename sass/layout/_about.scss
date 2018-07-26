@@ -1,5 +1,6 @@
 .about {
     padding-top: 2.2rem;
+    z-index: 2;
 
     &__picture {
         grid-column: full-start / col-end 4;
