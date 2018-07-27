@@ -1,18 +1,20 @@
+
 .btn {
 	&,
 	&:link,
 	&:visited {
-		// margin: 1.5rem 3rem;
-		width: 15.6rem;
-		height: 4.8rem;
 		text-transform: uppercase;
 		text-decoration: none;
-		font-size: 1.2rem;
 		letter-spacing: .15rem;
-		line-height: 1.5;
+		padding: 1.5rem 3rem;
+		display: inline-block;
+		
+		transition: all .2s;
+		position: relative;
+		font-size: 1.2rem;
+
 		// Change for the <button> element
 		border: none;
-		border-radius: 0;
 		cursor: pointer;
 	}
 
@@ -32,11 +34,11 @@
 		color: $color-white;
 
 		&--artist {
-			width: 21.9rem;
+			// width: 21.9rem;
 		}
 
 		&--contact {
-			width: 19.1rem;
+			// width: 19.1rem;
 			float: right;
 			border: solid .1rem $color-secondary;
 			margin-left: .75rem;
@@ -53,8 +55,8 @@
 		border: solid .1rem $color-secondary;
 
 		&--contact {
-			width: 16.8rem;
-			margin-right: .75rem;
+			// width: 16.8rem;
+			// margin-right: .75rem;
 		}
 
 		&::after {
@@ -75,15 +77,7 @@
 .btn-text {
 	&:link,
 	&:visited {
-		// width: 9.6rem;
-		// height: 1.8rem;
-		// line-height: 1.5;
-		// text-transform: uppercase;
-		// text-decoration: none;
-		// font-size: 1.2rem;
-		// font-weight: 700;
-		// letter-spacing: .15px;
-		// text-align: center;
+		
 	}
 
 	&:hover {

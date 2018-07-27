@@ -155,12 +155,12 @@
     &__checkbox:checked + &__button &__icon::before {
         top: 0;
         //spin the hamburger buns
-        transform: rotate(500deg/*or 135deg*/);
+        transform: rotate(135deg);  
     }
 
     &__checkbox:checked + &__button &__icon::after {
         top: 0;
         //spin the hanburger buns
-        transform: rotate(-500deg/*or -135deg*/);
+        transform: rotate(-135deg);  
     }
 }

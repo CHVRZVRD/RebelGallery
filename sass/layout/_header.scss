@@ -1,22 +1,44 @@
 .header {
-	grid-column: full-start / full-end;
-	grid-row: 1;
 
-	height: 100vh;
-	background-image: 
-	linear-gradient(to right, rgba($color-black, 0.6), rgba($color-black, 0.6)),
-	url(../img/hero.jpg);
-	background-size: cover;
-	background-position: top;
-	position: relative;
+	&__home {
+		grid-column: full-start / full-end;
+		grid-row: 1;
 
-	z-index: -1;
-	
+		height: 100vh;
+		background-image: 
+		linear-gradient(to right, rgba($color-black, 0.6), rgba($color-black, 0.6)),
+		url(../img/hero.jpg);
+		background-size: cover;
+		background-position: top;
+		position: relative;
+
+		z-index: -1;
+	}
+
+	&__artist {
+		height: 100vh;
+		background-image: radial-gradient(circle at 28% 43%, transparent, $color-black),
+		url(../img/bitmap@2x.jpg);
+		background-size: cover;
+		background-position: top;
+		position: relative;
+
+		z-index: -1;
+
+		&__container {
+			display: grid;
+			grid-template-columns: 50vw 50vw;
+
+			&--info {
+				grid-column: 2;
+			}
+		}
+	}
 
 	&__logo-box {
 		position: absolute;
 		top: 3rem;
-		left: 5rem;
+		left: 3rem;
 	}
 
 	&__logo {
