@@ -63,12 +63,16 @@
             // grid-column: 1 / -1;
         }
 
-        &__specialty {
+        &__specialty-grid {
             margin-top: 3.2rem;
             margin-bottom: 4rem;
             display: grid;
             grid-template-columns: auto 1fr;
             grid-column-gap: 3.8rem;
+
+            &__artistpg-head {
+                
+            }
 
             &--head {
                 grid-row: 1 / span 3;
@@ -80,6 +84,20 @@
                 
                 font-size: $default-font-size;
 	            color: $color-black;
+	            line-height: 1.88;
+	            
+            }
+
+            &--head2 {
+                grid-row: 1 / span 3;
+
+                width: 9.9rem;
+                letter-spacing: .2rem;
+                text-transform: uppercase;
+                line-height: 1.88;
+                
+                font-size: $default-font-size;
+	            color: $color-white;
 	            line-height: 1.88;
 	            
             }

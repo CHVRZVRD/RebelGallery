@@ -47,6 +47,15 @@ body {
 		font-weight: 500;
 		letter-spacing: .22rem;
 	}
+
+	&--sub2 {
+		font-family: 'AnsleyDisplay', sans-serif;
+		display: block;
+		font-size: 2rem;
+		font-weight: 500;
+		letter-spacing: .22rem;
+		color: $color-white;
+	}
 }
 
 .heading-secondary {
@@ -84,6 +93,19 @@ body {
 	// width: 38.6rem;
 	font-size: $default-font-size;
 	color: $color-black;
+	line-height: 1.88;
+	letter-spacing: .08rem;
+
+	&--specialty {
+		width: 12.3rem;
+		line-height: 1.88;
+		letter-spacing: .08rem;
+	}
+}
+
+.paragraph2 {
+	font-size: $default-font-size;
+	color: $color-white;
 	line-height: 1.88;
 	letter-spacing: .08rem;
 
