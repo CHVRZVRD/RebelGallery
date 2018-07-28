@@ -733,8 +733,14 @@ body {
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon::before {
   top: 0;
-  transform: rotate(135deg); }
+  left: 0;
+  right: 0;
+  transform: rotate(-135deg);
+  width: 100%; }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
   top: 0;
-  transform: rotate(-135deg); }
+  left: 0;
+  right: 0;
+  transform: rotate(135deg);
+  width: 100%; }
