@@ -53,7 +53,7 @@ ORDER: base + typography > general layout + grid > page layout > components
 html {
   font-size: 62.5%; }
 
-.container {
+.body-container {
   display: grid;
   grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
   grid-template-rows: repeat(10, auto);
@@ -77,8 +77,17 @@ html {
 body {
   font-family: 'OpenSans', sans-serif;
   font-weight: 400;
-  /*	font-size: 16px;*/
-  line-height: 1.7; }
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: #0c0c0c; }
+
+h1, h2, h3, h4 {
+  margin: 0;
+  line-height: 1.88;
+  font-weight: 600; }
+
+p {
+  margin: 0; }
 
 .heading-primary {
   text-transform: uppercase; }
@@ -138,9 +147,7 @@ body {
   line-height: 1.88;
   letter-spacing: .08rem; }
   .paragraph2--specialty {
-    width: 12.3rem;
-    line-height: 1.88;
-    letter-spacing: .08rem; }
+    width: 12.3rem; }
 
 .letter {
   font-family: 'UnifrakturMaguntia', cursive;
@@ -218,6 +225,9 @@ body {
   letter-spacing: .15rem;
   padding: 1.5rem 3rem;
   display: inline-block;
+  font-weight: inherit;
+  line-height: 1.5;
+  border-radius: 0;
   transition: all .2s;
   position: relative;
   font-size: 1.2rem;
@@ -239,6 +249,58 @@ body {
 
 .btn::after {
   content: ""; }
+
+.carousel-container {
+  grid-column: full-start / full-end;
+  grid-row: 3;
+  background-color: #e23131; }
+
+#quote-carousel {
+  padding: 0 1rem 3rem 1rem;
+  margin-top: 6rem; }
+
+#quote-carousel .carousel-control {
+  background: none;
+  color: #CACACA;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px; }
+
+#quote-carousel .carousel-indicators {
+  position: relative;
+  right: 50%;
+  top: auto;
+  bottom: 10px;
+  margin-top: 20px;
+  margin-right: -19px; }
+
+#quote-carousel .carousel-indicators li {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  opacity: 0.4;
+  overflow: hidden;
+  transition: all .4s ease-in;
+  vertical-align: middle; }
+
+#quote-carousel .carousel-indicators .active {
+  width: 12.8rem;
+  height: 12.8rem;
+  opacity: 1;
+  transition: all .2s; }
+
+.item blockquote {
+  border-left: none;
+  margin: 0; }
+
+.item blockquote p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px; }
 
 .form__input {
   font-size: 1.2rem;
@@ -520,6 +582,7 @@ body {
 
 .gallery {
   grid-column: full-start / full-end;
+  grid-row: 2;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(12, 8.33%);
@@ -596,6 +659,7 @@ body {
     grid-template-columns: 50vw 50vw; }
     .header__artist__container--info {
       grid-column: 2;
+      grid-row: 1;
       padding: 14.7rem 10.5rem;
       display: grid;
       align-content: center;
