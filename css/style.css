@@ -252,25 +252,24 @@ p {
 
 .button-fill {
   text-align: center;
-  background: #ccc;
+  background: #fff;
   display: inline-block;
   position: relative;
-  text-transform: uppercase;
-  margin: 25px; }
+  text-transform: uppercase; }
 
 .button-fill.grey {
   background: #445561;
   color: white; }
 
 .button-fill.orange {
-  background: #f26b43;
+  background: #e23131;
   color: #fff; }
 
 .button-fill.orange .button-inside {
-  color: #f26b43; }
+  color: #e23131; }
 
 .button-fill.orange .button-inside.full {
-  border: 1px solid #f26b43; }
+  border: 1px solid #e23131; }
 
 .button-text {
   padding: 0 25px;
