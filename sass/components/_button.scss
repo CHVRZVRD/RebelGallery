@@ -121,8 +121,8 @@
 	letter-spacing: .15rem;
   }
   .button-inside {
-	width: 0px;
-	height: 4.8rem;
+	width: 0rem;
+	height: 4.6rem;
 	margin: 0;
 	float: left;
 	position: absolute;
@@ -139,10 +139,10 @@
 	transition: width 0.5s, left 0.5s, margin 0.5s;
   }
   .button-inside.full {
-	width: 100%;
+	width: 99%;
 	left: 0%;
 	top: 0;
-	margin-right: -50px;
+	margin-right: -5rem;
 	border: 1px solid #445561;
   }
   .inside-text {
@@ -156,5 +156,7 @@
 	-moz-transform: translateX(50%);
 	-ms-transform: translateX(50%);
 	transform: translateX(50%);
+
+	font-size: 1.5rem;
   }
   
