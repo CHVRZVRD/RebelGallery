@@ -300,15 +300,14 @@ p {
 .inside-text {
   text-align: center;
   position: absolute;
-  top: 25%;
+  top: 30%;
   right: 50%;
   letter-spacing: .15rem;
   text-transform: uppercase;
   -webkit-transform: translateX(50%);
   -moz-transform: translateX(50%);
   -ms-transform: translateX(50%);
-  transform: translateX(50%);
-  font-size: 1.5rem; }
+  transform: translateX(50%); }
 
 .carousel-container {
   grid-column: full-start / full-end;
