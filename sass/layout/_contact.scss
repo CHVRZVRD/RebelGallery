@@ -98,7 +98,9 @@
     &__buttons {
         display: flex;
         flex-direction: row-reverse;
-
+        // display: grid;
+        // grid-template-columns: auto auto;
+        // grid-column-gap: 1px;
     }
 }
 

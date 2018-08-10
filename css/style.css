@@ -231,19 +231,19 @@ p {
   transition: all .2s;
   position: relative;
   font-size: 1.2rem;
-  border: none;
   cursor: pointer; }
+
+.btn--white {
+  background-color: #fff;
+  color: #e23131;
+  border: 0.1px solid #e23131; }
 
 .btn--red {
   background-color: #e23131;
-  color: #fff; }
+  color: #fff;
+  border: none; }
   .btn--red--contact {
     float: right; }
-
-.btn--transparent {
-  background-color: transparent;
-  color: #e23131;
-  border: solid 0.1rem #e23131; }
 
 .btn::after {
   content: ""; }
@@ -254,10 +254,6 @@ p {
   display: inline-block;
   text-transform: uppercase; }
 
-.button-fill.grey {
-  background: #e23131;
-  color: #fff; }
-
 .button-fill.orange {
   background: #e23131;
   color: #fff; }
@@ -266,6 +262,17 @@ p {
   color: #e23131; }
 
 .button-fill.orange .button-inside.full {
+  border: 1px solid #e23131; }
+
+.button-fill.white {
+  background: #fff;
+  color: #e23131; }
+
+.button-fill.white .button-inside {
+  color: #fff;
+  background: #e23131; }
+
+.button-fill.white .button-inside.full {
   border: 1px solid #e23131; }
 
 .button-text {
@@ -295,7 +302,7 @@ p {
   left: 0%;
   top: 0;
   margin-right: -5rem;
-  border: 1px solid #445561; }
+  border: 1px solid #e23131; }
 
 .inside-text {
   text-align: center;
