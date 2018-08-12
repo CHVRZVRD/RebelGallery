@@ -567,8 +567,16 @@ p {
         grid-column: 2 / 2;
         grid-row: 3; }
   .contact__buttons {
-    display: flex;
-    flex-direction: row-reverse; }
+    grid-row: 5;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-column-gap: 1.5rem; }
+    .contact__buttons--white {
+      grid-column: 2 / span 1;
+      grid-row: 1; }
+    .contact__buttons--red {
+      grid-column: 3 / span 1;
+      grid-row: 1; }
 
 .firstname {
   grid-column: 1 / 2;

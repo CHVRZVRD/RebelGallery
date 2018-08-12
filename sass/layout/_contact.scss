@@ -96,11 +96,27 @@
     }
 
     &__buttons {
-        display: flex;
-        flex-direction: row-reverse;
+        // display: flex;
+        // flex-direction: row-reverse;
+
+        // justify-content: space-between;
         // display: grid;
         // grid-template-columns: auto auto;
         // grid-column-gap: 1px;
+        grid-row: 5;
+        display: grid; 
+        grid-template-columns: repeat(3, auto);
+        grid-column-gap: 1.5rem;
+
+        &--white {
+            grid-column: 2 / span 1;
+            grid-row: 1 
+        }
+
+        &--red {
+            grid-column: 3 / span 1;
+            grid-row: 1;
+        }
     }
 }
 
